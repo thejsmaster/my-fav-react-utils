@@ -1,0 +1,31 @@
+{
+  "name": "my-fav-react-utils",
+  "version": "0.0.1",
+  "type": "commonjs",
+  "author": "Sean Freeman",
+  "scripts": {
+    "dev": "tsc",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.18",
+    "typescript": "^5.2.2"
+  },
+  "description": "useful utils to increase productivity for react",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejsmaster/my-fav-react-utils.git"
+  },
+  "keywords": [
+    "react utils"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thejsmaster/my-fav-react-utils/issues"
+  },
+  "homepage": "https://github.com/thejsmaster/my-fav-react-utils#readme"
+}

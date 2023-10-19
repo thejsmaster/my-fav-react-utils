@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ES2015" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "lib": [
+      "ES2015",
+      "DOM",
+      "ES2016.Array.Include",
+      "ES2015.Core",
+      "ES2015.Promise",
+      "ES2018.Promise"
+    ] /* Specify a set of bundled library declaration files that describe the target runtime environment. */,
+    "jsx": "react-jsx" /* Specify what JSX code is generated. */,
+
+    /* Modules */
+    "module": "commonjs" /* Specify what module code is generated. */,
+
+    "allowUmdGlobalAccess": true /* Allow accessing UMD globals from modules. */,
+
+    /* Emit */
+    "declaration": true /* Generate .d.ts files from TypeScript and JavaScript files in your project. */,
+    "declarationMap": true /* Create sourcemaps for d.ts files. */,
+
+    "esModuleInterop": true /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+
+    "strict": true /* Enable all strict type-checking options. */,
+
+    "allowJs": true,
+
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  }
+}
